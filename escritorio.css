@@ -1,0 +1,76 @@
+body {
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+
+#topo {
+    text-align: center;
+    position: center;
+    
+}
+
+#topo img {
+height: 110px;
+width: 110px;
+position: center;
+
+}
+
+#topo p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+    position: center;
+}
+
+
+
+
+ul {
+    list-style: none;
+    position: center;
+    display:flex;
+    text-align: center;
+    margin-top: 55px;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    
+    
+  
+    
+}
+
+
+ul li a {
+    
+    position: center;
+    font-family: 'Merriweather', serif;
+    font-size:15px;
+    text-decoration: none;
+    color:black;
+    font-weight: 1000;
+    
+
+
+    padding: 15px 100px;
+    border: 2px solid #0E0D41;
+    border-radius: 20px;
+    background: #CCB596;
+
+    
+
+
+
+
+    
+    
+
+
+
+}
+
+
