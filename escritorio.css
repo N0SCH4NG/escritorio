@@ -1,29 +1,25 @@
 * {
-    margin:0px;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 body {
     background-image: url(./fundo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
-
 }
-
 
 #topo {
     text-align: center;
     position: center;
-    
 }
 
 #topo img {
-height: 110px;
-width: 110px;
-position: center;
-
+    height: 110px;
+    width: 110px;
+    position: center;
 }
 
 #topo p {
@@ -32,30 +28,21 @@ position: center;
     position: center;
 }
 
-
-
-
 ul {
     list-style: none;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
-
 
 ul li a {
-    
-    position: center;
     font-family: 'Merriweather', serif;
-    font-size:15px;
+    font-size: 15px;
     text-decoration: none;
-    color:black;
+    color: black;
     font-weight: bold;
-    
+
     border: 2px solid #0E0D41;
-    
+
     background: #CCB596;
 }
-
-
