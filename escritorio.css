@@ -1,7 +1,13 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body {
-    background-image: url(./background.png);
+    background-image: url(./fundo.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     
 
 }
@@ -31,17 +37,10 @@ position: center;
 
 ul {
     list-style: none;
-    position: center;
     display:flex;
-    text-align: center;
-    margin-top: 55px;
     flex-direction: column;
-    gap: 80px;
     justify-content: center;
-    
-    
-  
-    
+
 }
 
 
@@ -52,25 +51,11 @@ ul li a {
     font-size:15px;
     text-decoration: none;
     color:black;
-    font-weight: 1000;
+    font-weight: bold;
     
-
-
-    padding: 15px 100px;
     border: 2px solid #0E0D41;
-    border-radius: 20px;
+    
     background: #CCB596;
-
-    
-
-
-
-
-    
-    
-
-
-
 }
 
 
