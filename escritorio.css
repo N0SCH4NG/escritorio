@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -17,6 +18,7 @@ body {
 }
 
 #topo img {
+    margin-top: 10px;
     height: 110px;
     width: 110px;
     position: center;
@@ -26,14 +28,21 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 18px;
     position: center;
+    margin-top: 15px;
 }
+
 
 ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    position: center;
+    margin-top: 50px;
+    text-align: center;
+    gap: 60px;
+    
 }
+
 
 ul li a {
     font-family: 'Merriweather', serif;
@@ -43,6 +52,17 @@ ul li a {
     font-weight: bold;
 
     border: 2px solid #0E0D41;
-
+    border-radius: 40px;
     background: #CCB596;
+    
+    
+    padding: 10px  100px;
+
+    
+    
 }
+
+
+
+
+
