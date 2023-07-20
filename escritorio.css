@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -31,20 +30,16 @@ body {
     margin-top: 15px;
 }
 
-
-ul {
+.links-list {
     list-style: none;
     display: flex;
     flex-direction: column;
-    position: center;
     margin-top: 50px;
-    text-align: center;
+    align-items: center;
     gap: 60px;
-    
 }
 
-
-ul li a {
+.link {
     font-family: 'Merriweather', serif;
     font-size: 15px;
     text-decoration: none;
@@ -54,15 +49,10 @@ ul li a {
     border: 2px solid #0E0D41;
     border-radius: 40px;
     background: #CCB596;
-    
-    
-    padding: 10px  100px;
 
-    
-    
+    padding: 15px 0;
+
+    display: block;
+    width: 290px;
+    text-align: center;
 }
-
-
-
-
-
