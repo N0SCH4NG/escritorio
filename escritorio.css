@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(./fundo.png);
+    background-image: url(./fundo-big.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -18,14 +18,14 @@ body {
 
 #topo img {
     margin-top: 10px;
-    height: 110px;
-    width: 110px;
+    height: 120px;
+    width: 120px;
     position: center;
 }
 
 #topo p {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     position: center;
     margin-top: 15px;
 }
@@ -34,9 +34,9 @@ body {
     list-style: none;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 45px;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
 }
 
 .link {
@@ -48,11 +48,26 @@ body {
 
     border: 2px solid #0E0D41;
     border-radius: 40px;
-    background: #CCB596;
+    background: #D2C3AE;
 
     padding: 15px 0;
 
     display: block;
     width: 290px;
     text-align: center;
+}
+
+
+.link:hover{
+    background: #CCB596;
+    border: 2px solid white;
+    
+}
+
+
+.link:active{
+    background: rgb(186, 178, 201);
+    border: 2px solid black;
+    color: white;
+
 }
